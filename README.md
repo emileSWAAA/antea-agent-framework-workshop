@@ -59,8 +59,8 @@ Welcome to the Agent Framework workshop! This project is designed to help you le
 
 ### Infrastructure Setup
 
-1. Navigate to the Azure Portal from the browser of your skillable lab `https://portal.azure.com/#home`
-2. Login using the Username and Password available in the Resources tab
+1. Navigate to the Azure Portal `https://portal.azure.com/#home`
+2. Login using your credentials
 3. Open a new tab in your browser and go to `https://ai.azure.com` (you should be logged in already)
 4. Create a new project if none are available.
 5. Deploy a GPT-4o model. You can follow the numbered steps in the screenshot below:
@@ -83,6 +83,7 @@ Welcome to the Agent Framework workshop! This project is designed to help you le
 ```python
 # Azure OpenAI configuration
 AZURE_OPENAI_ENDPOINT=https://<resource>.openai.azure.com/
+# note that cognitiveservices endpoints also work: https://<resource>.cognitiveservices.azure.com/
 AZURE_OPENAI_API_KEY=<your-api-key>
 AZURE_OPENAI_API_VERSION=2025-03-01-preview
 AZURE_OPENAI_CHAT_DEPLOYMENT_NAME=gpt-4o-2024-11-20
@@ -92,7 +93,7 @@ AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME=text-embedding-ada-002
 ---
 
 # Getting Started
-Start with the first exercise and progress through them sequentially. Each exercise builds upon concepts introduced in the previous ones.
+Start with the first exercise and progress through them sequentially.
 
 Use documentation on https://learn.microsoft.com/en-us/agent-framework/
 to help you with getting up to speed and figuring out what steps to take to complete the exercises.
