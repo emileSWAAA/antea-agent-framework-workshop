@@ -8,10 +8,13 @@ Welcome to the Agent Framework workshop! This project is designed to help you le
 
 ### Prerequisites
 
-- [Python](https://www.python.org/) 3.9+ installed
+- GitHub Codespaces
+- (or run locally with [Python](https://www.python.org/) 3.9+ installed, see instructions below if needed)
 - An Azure OpenAI API key or OpenAI API key (For production ready deployments, you should refrain from using keys, and switch to [managed identities](https://learn.microsoft.com/entra/identity/managed-identities-azure-resources/overview))
 - [Visual Studio Code](https://code.visualstudio.com/)
-- GitHub Codespaces
+
+
+When not using Codespaces, follow below instructions:
 
 ### Installation
 
@@ -57,7 +60,7 @@ Welcome to the Agent Framework workshop! This project is designed to help you le
       pip --version
     ```
 
-### Infrastructure Setup
+### AI Endpoints Setup
 
 1. Navigate to the Azure Portal `https://portal.azure.com/#home`
 2. Login using your credentials
