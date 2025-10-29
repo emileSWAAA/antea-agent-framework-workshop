@@ -1,4 +1,5 @@
 # This file has been originally authored by https://github.com/microsoft/OpenAIWorkshop/tree/main/agentic_ai/backend_services
+# to run, cd mcp and uv run python mcp_server.py
 
 from fastmcp import FastMCP
 from typing import List, Optional, Dict, Any
