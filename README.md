@@ -28,7 +28,9 @@ When not using Codespaces, follow below instructions:
    ```
 
 4. Select open folder in your VS Code and open the `agent-framework-workshop` folder to see the code in your VS Code.
-5. Install depedencies (might take a few minutes):
+5. Install uv: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+6. Run `uv sync`
+7. Install depedencies (might take a few minutes):
 
     [uv](https://github.com/astral-sh/uv) is a fast Python package installer and runner. If you haven't installed it yet:
 
